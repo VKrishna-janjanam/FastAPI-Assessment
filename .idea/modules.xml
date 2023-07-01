@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/assessmentFatAPI.iml" filepath="$PROJECT_DIR$/.idea/assessmentFatAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MetSim-FastAPI-Assessment.iml" filepath="$PROJECT_DIR$/.idea/MetSim-FastAPI-Assessment.iml" />
     </modules>
   </component>
 </project>
