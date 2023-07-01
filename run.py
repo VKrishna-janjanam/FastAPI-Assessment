@@ -217,4 +217,5 @@ def query_aircrafts_by_systems(
 
 
 if __name__ == "__main__":
-    uvicorn.run("run:app", host="0.0.0.0", port=8000)
+    # uvicorn.run("run:app", host="0.0.0.0", port=8000)
+    uvicorn.run("run:app", port=3001)
