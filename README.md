@@ -44,4 +44,4 @@ their Performance, Cabin and System details:
 * SQLite
 * Postman
 
-To run the test cases on each of them, run the test_gulf
+To run the test cases on each of them, run the test_gulf.py
