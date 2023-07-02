@@ -33,13 +33,15 @@ their Performance, Cabin and System details:
 >run.py
 
 
-  
 **Technologies Used**
 * Python
 * FastAPI
 * SQLite
+* PyTest
 
 **Environment Used**
 * Pycharm
 * SQLite
 * Postman
+
+To run the test cases on each of them, run the test_gulf

@@ -196,13 +196,20 @@ def query_aircrafts_by_performance(
     high_speed_cruise: float = Query(None),
     long_range_cruise: float = Query(None)
 ):
+    """
+        Method to query the aircrafts based on the performance values
+    """
     aircrafts = db.query_aircraft_by_performance(maximum_range, high_speed_cruise, long_range_cruise)
     return {"aircrafts": aircrafts}
 
 
 @app.get("/get_aircrafts_by_cabin")
-def query_aircrafts_by_cabin(living_areas: int = Query(None), num_panoramic_windows: int = Query(None),
+def query_aircrafts_by_cabin(living_areas: int = Query(None),
+                             num_panoramic_windows: int = Query(None),
                              total_interior_length: float = Query(None)):
+    """
+        Method to query the aircrafts based on the cabin values
+    """
     aircrafts = db.query_aircrafts_by_cabin(living_areas, num_panoramic_windows, total_interior_length)
     return {"aircrafts": aircrafts}
 
@@ -212,6 +219,9 @@ def query_aircrafts_by_systems(
     avionics: str = Query(None),
     engines: str = Query(None)
 ):
+    """
+        Method to query the aircrafts based on the System values
+    """
     aircrafts = db.query_aircrafts_by_systems(avionics, engines)
     return {"aircrafts": aircrafts}
 
