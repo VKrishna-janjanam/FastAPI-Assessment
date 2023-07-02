@@ -31,3 +31,15 @@ their Performance, Cabin and System details:
 >sqllite_db_run.py
 5. Run the below file to initialize the API.
 >run.py
+
+
+  
+**Technologies Used**
+* Python
+* FastAPI
+* SQLite
+
+**Environment Used**
+* Pycharm
+* SQLite
+* Postman
